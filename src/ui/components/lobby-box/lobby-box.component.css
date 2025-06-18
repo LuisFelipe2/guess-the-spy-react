@@ -1,0 +1,157 @@
+.question-boxQuestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.question-img-background {
+    width: 100%;
+    max-width: 400px;
+    max-height: 200px;
+    object-position: top;
+    object-fit: cover;
+}
+
+.btn-comecar-game {
+    background: linear-gradient(180deg, #7b6686 0%, #7c6888 100%);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #ffffff;
+
+    padding: 15px 60px;
+    margin: 15px;
+}
+
+/*LOADING*/
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #726383;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+}
+@keyframes lds-facebook {
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+    50%,
+    100% {
+        top: 24px;
+        height: 32px;
+    }
+}
+
+.papel-box {
+  background: #e0f2fe;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  margin: 30px;
+}
+
+.votacao-box {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.votacao-box h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #111827;
+}
+
+.vote-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.vote-button {
+  padding: 10px 20px;
+  background-color: #726383;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vote-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.vote-button.voted {
+  background-color: #7c6888;
+}
+
+.vote-confirm {
+  margin-top: 12px;
+  color: #7b6686;
+  font-size: 14px;
+}
+
+/* Adicione ao final do arquivo */
+.result-box {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.result-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #726383;
+}
+
+.result-item {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.result-winner {
+    font-weight: bold;
+    color: #28a745;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.new-game-btn {
+    margin-top: 20px;
+    width: 100%;
+}

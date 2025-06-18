@@ -1,0 +1,59 @@
+.header-cardPlayer {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 41px;
+    height: 114px;
+    width: 466px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    z-index: 3;
+}
+
+.container-cardPlayer {
+    border-bottom: 2px dashed #cccccc;
+    margin-right: 5.36%;
+    margin-left: 12.02%;
+}
+
+.player-info-container {
+    display: flex;
+    flex-direction: column;
+    height: 45.69%;
+    width: 224px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 32px;
+    margin-right: 22.24%;
+}
+
+.player-name {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    color: #333333;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.player-score {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 18px;
+    color: #333333;
+    opacity: 0.8;
+}
+
+.player-name-container {
+    display: flex;
+    height: 29px;
+    align-items: center;
+    margin: 0;
+}
