@@ -147,7 +147,7 @@ export function LobbyScreen() {
 
 
             <SockJsClient
-                url={"http://localhost:8080/websocket"}
+                url={"https://guess-the-spy.vercel.app/websocket"}
                 topics={topicRoom}
                 autoReconnect={false}
                 onConnectFailure={handleConnectFailure}
@@ -157,7 +157,7 @@ export function LobbyScreen() {
             />
 
             <SockJsClient
-                url={"http://localhost:8080/websocket"}
+                url={"https://guess-the-spy.vercel.app/websocket"}
                 topics={topicGame}
                 autoReconnect={false}
                 onConnectFailure={handleConnectFailure}

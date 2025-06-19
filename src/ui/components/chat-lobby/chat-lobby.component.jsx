@@ -45,7 +45,7 @@ export function ChatLobby({ lobbyId, currentPlayer }) {
     return (
       !!lobbyId && (
         <SockJsClient
-          url={"http://localhost:8080/websocket"}
+          url={"https://guess-the-spy.vercel.app/websocket"}
           topics={chatTopic}
           autoReconnect={false}
           onMessage={handleMessage}

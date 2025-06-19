@@ -29,13 +29,6 @@ export function LobbyBoxGameOver({ game, onNewGame }) {
                             <p>O espião não descobriu a palavra secreta, entretanto também não foi descoberto</p>
                         )}
                     </div>
-
-                    <button
-                        className="btn-comecar-game"
-                        onClick={onNewGame}
-                    >
-                        Nova partida
-                    </button>
                 </div>
             </div>
         </div>
